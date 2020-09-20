@@ -1,0 +1,16 @@
+.sliderContainer {
+    height: 25rem;
+}
+.sliderCard{
+    min-height: 5rem;
+    opacity: 0.95;
+}
+.showMore{
+    @apply block text-white rounded-md justify-self-start items-start bg-pink-700 py-2 px-8  opacity-100 absolute
+}
+.showMore:focus {
+    @apply outline-none
+}
+.showMore:hover {
+    @apply bg-pink-900
+}
